@@ -24,7 +24,7 @@ variable "allowed_cidr" {
 
 variable "db_instance_class" {
   type    = string
-  default = "db.t4g.micro"
+  default = "db.t3.micro"
 }
 
 variable "db_allocated_storage" {
